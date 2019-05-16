@@ -37,7 +37,7 @@
 					</#if>
 
 					<#if navItem.isBrowsable()>
-						<#assign nav_item_href_link = "href='${navItem.getURL()}'" />
+						<#assign nav_item_href_link = "href='${navItem.getLayout().getFriendlyURL()}'" />
 					</#if>
 
 					<#if navItem.isSelected()>
@@ -65,7 +65,7 @@
 									</#if>
 
 									<li class="${nav_child_css_class}" id="layout_${childNavigationItem.getLayoutId()}" role="presentation">
-										<a aria-labelledby="layout_${childNavigationItem.getLayoutId()}" class="dropdown-item" href="${childNavigationItem.getURL()}" ${childNavigationItem.getTarget()} role="menuitem">${childNavigationItem.getName()}</a>
+										<a aria-labelledby="layout_${childNavigationItem.getLayoutId()}" class="dropdown-item" href="${childNavigationItem.getLayout().getFriendlyURL()}" ${childNavigationItem.getTarget()} role="menuitem">${childNavigationItem.getName()}</a>
 									</li>
 								</#list>
 							</ul>
