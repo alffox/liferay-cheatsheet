@@ -1,0 +1,1 @@
+This Freemarker template is a clone of the Freemarker out of the box Site Navigation template fetched from https://github.com/liferay/liferay-portal/blob/7.1.x/modules/apps/site-navigation/site-navigation-menu-web/src/main/resources/com/liferay/site/navigation/menu/web/portlet/template/dependencies/portlet_display_template_navbar_default.ftl
