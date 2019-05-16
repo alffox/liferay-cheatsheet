@@ -1,1 +1,3 @@
 This Freemarker template is a clone of the Freemarker out of the box Site Navigation template fetched from https://github.com/liferay/liferay-portal/blob/7.1.x/modules/apps/site-navigation/site-navigation-menu-web/src/main/resources/com/liferay/site/navigation/menu/web/portlet/template/dependencies/portlet_display_template_navbar_default.ftl
+
+The changes to have Navigation Items having a target URL without the "/web/guest/" part are shown at this commit: https://github.com/alffox/liferay-cheatsheet/commit/701183b0fda955c68d3149d19bb5b6e7f93a36e9
