@@ -1,6 +1,20 @@
 # CK-Alloy-Config-allow-HTML5
-Note that It's rather uncommon (it should be at least) to make a whole block of text, headers, images, etc. a single link.
-Not in a content creation tool at least, which should be used to create quality content.
-This can happen when designing HTML pages, but still this is bad practice for SEO purposes.
-Also WYSIWYG editors main purpose is to  see the content while editing in the same way as it will be published, what is also should be consistent among browsers.
-Let's remember that CKEditor is a content creation tool, not a developer tool
+
+This folder contains configuration to override AlloyEditor and CKEditor used in Liferay 7.0+ versions.
+
+Related documentation:
+
+- https://dev.liferay.com/en/develop/tutorials/-/knowledge_base/7-0/modifying-an-editors-configuration
+- https://ckeditor.com/docs/ckeditor4/latest/guide/dev_allowed_content_rules.html
+
+## Allow <h1> inside <a> tags
+
+See commit 
+
+Resources:
+
+- https://ckeditor.com/old/forums/Support/CKEditor-wont-allow-inside
+- https://ckeditor.com/old/forums/Support/What-is-the-syntax-to-allow-all-content-html-a-h1-p-in-the-config.js-page.
+
+
+**Note**: CKEditor and Alloy Editor are provided as WYSIWYG Content Editors and are not intended to be HTML Editors. These editors' Source Modes are provided for convenience and are only intended for minor markup adjustments. Any markup entered into Source Mode is not guaranteed to remain unmodified nor intact.
