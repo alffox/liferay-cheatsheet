@@ -1,6 +1,6 @@
 CKEDITOR.dtd.$removeEmpty = [];
 CKEDITOR.dtd.a.div = 1;
-CKEDITOR.dtd.a.h2 = 1;
+
 CKEDITOR._.events.instanceReady.listeners.push(function( ev ) {
     var rules = {
         indent: true,
