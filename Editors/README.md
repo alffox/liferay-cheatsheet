@@ -9,7 +9,7 @@ Related documentation:
 
 ## Allow <h1> inside <a> tags
 
-See commit 
+See commit https://github.com/alffox/liferay-cheatsheet/commit/becc7e1b0d420bb2a2a74bac085b1b40ea48591f
 
 Resources:
 
